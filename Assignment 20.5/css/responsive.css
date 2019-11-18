@@ -1,0 +1,37 @@
+@media (min-width: 568px)
+{
+	.subheader-about h2{
+		text-align: justify;
+	}
+	.about-width{
+		width: 100%;
+		text-align: justify;
+	
+	}
+}
+@media (max-width: 768px){
+.about-me{width: 100%;}
+.media{
+	margin: 0 auto;
+	text-align: center;
+	display:block;
+}
+.media img{
+	margin-bottom: 10px;
+}
+.media-body {margin: 15px 0px;}
+.Talk-area{
+	width: 100%;
+
+}
+}
+@media (min-width: 992px){
+	.about-width{
+	  width: 65%;
+	}
+}
+@media (min-width: 1200px){
+	.about-width{
+	  width: 55%;
+	}
+}

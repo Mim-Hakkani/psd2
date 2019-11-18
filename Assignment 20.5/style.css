@@ -1,0 +1,111 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: phototime
+	Template URI: http://www.softtech-it.com
+	Description: photo related template
+	Author: Hasan Mahmud
+	Author URI: http://www.HN-Mahmud.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Header Area
+		2.1 Menu Area
+		
+	3. Subheader Area
+	4. Portfolio Area
+	5. Footer Area
+
+-----------------------------------------------------------------------------------*/
+
+/************** 1. Typography ************************/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,600,700,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+
+/**************** 2. Header Area ********/
+.navbar-nav a{
+	color: #6F6F6F;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.active{
+		color:#22BEBA!important; 
+}
+.navbar-nav a:hover{
+	color:#22BEBA; 
+}
+
+/**************** 2. portfolio ********/
+.portfolio{
+	position: relative;
+	overflow: hidden;
+}
+.overlay {
+  position: absolute;
+  top: 82px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s;
+  background-color: #008CBA;
+}
+
+.effect:hover .overlay {
+  opacity: 0.7;
+  top: 0;
+}
+
+.text {
+  color: #FFF;
+  font-size: 30px;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*********About-page section *****/
+.about-width{
+	width: 80%;
+	margin: 0 auto;
+	font-family: 'Nunito Sans Regular', sans-serif;
+}
+/****************/
+.about-me{
+	width: 60%;
+}
+.about-me h2{
+	font-family: 'Montserrat Bold', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	}
+.about-me p{
+	line-height: 25px;
+}	
+/********services Section*********/
+
+.Services{background-color: #39B4AF;}
+/**********About-section ********/
+
+
+
+/********Footer Section*********/
+.footer-area{
+	background-color: #000;
+
+}
